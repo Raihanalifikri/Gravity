@@ -305,10 +305,7 @@ marquee {
     background: rgb(119, 106, 106);
     border-radius: 10px;
     box-shadow: 0 0 10px gray;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: px;
+    
 }
 
 .collection-card:hover {
@@ -319,7 +316,8 @@ marquee {
 .image-box {
     width: 310px;
     height: 300px;
-    border-radius: 20px 10px 0 0;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .image-box img {
@@ -332,6 +330,7 @@ marquee {
 
 .image-box:hover img {
     transform: scale(1.1);
+    width: 100%;
 }
 
 .collection-card h3 {
